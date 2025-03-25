@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Amazon Scraper API
 
 This is a project that uses **Bun**, **Axios**, and **JSDOM** to extract product information from Amazon based on a keyword provided by the user. The API has an endpoint `/api/scrape` that, upon receiving a `keyword` query parameter, performs scraping on Amazon's search results page and returns the extracted data in JSON format.
