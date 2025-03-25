@@ -28,11 +28,17 @@ Make sure you have **Bun** installed on your machine. If you don't have it, foll
 
 1. **Clone the repository**:
 
-   First, clone the project repository to your local machine:
+   First, clone the project repository to your local machine back end:
 
    ```bash
    git clone https://github.com/your-username/amazon-scraper-api.git
    cd amazon-scraper-api
+
+   git clone https://github.com/your-username/amazon-scraper.git
+   cd amazon-scraper
+
+
+First, clone the project repository to your local machine back end:
 
 2. **Install the dependencies**:
 	```bash
