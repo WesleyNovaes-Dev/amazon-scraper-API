@@ -34,5 +34,30 @@ Make sure you have **Bun** installed on your machine. If you don't have it, foll
    git clone https://github.com/your-username/amazon-scraper-api.git
    cd amazon-scraper-api
 
+2. **Install the dependencies**:
+	```bash
+	bun install
 
+3. **Start the server**:
+	```bash
+	bun start
+ 
+Port: http://localhost:3000.
+
+
+4. **Making a request to the API*:
+   ```bash
+    curl "http://localhost:3000/api/scrape?keyword=smartphone"
+
+
+**Example response:**
+ ```bash
+[
+  {
+    "title": "REDMAGIC 10 Pro 144Hz Gaming Phone, Smartphone Android 5G, 12GB RAM+256GB ROM, Snapdragon 8 Elite, 6.85\" 1.5K AMOLED Tela Cheia, FHD+, Câmera 50MP, Dual-Sim, Preto",
+    "rating": "No rating",
+    "reviews": "Preço, página do produtoR$ 5.799,00R$5.799,00 De: R$ 6.500,00R$6.500,00em até 10x de R$ 579,90R$579,90 sem juros",
+    "imageUrl": "https://m.media-amazon.com/images/I/518RsOS8u4L._AC_UL320_.jpg"
+  }
+]
 
