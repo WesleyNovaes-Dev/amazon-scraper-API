@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Amazon Scraper API
 
 This is a project that uses **Bun**, **Axios**, and **JSDOM** to extract product information from Amazon based on a keyword provided by the user. The API has an endpoint `/api/scrape` that, upon receiving a `keyword` query parameter, performs scraping on Amazon's search results page and returns the extracted data in JSON format.
@@ -61,3 +62,20 @@ Port: http://localhost:3000.
   }
 ]
 
+=======
+# amazon-scraper
+
+To install dependencies:
+
+```bash
+bun install
+```
+
+To run:
+
+```bash
+bun run index.ts
+```
+
+This project was created using `bun init` in bun v1.2.6. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+>>>>>>> 2aa4b6f (Create Project / Feat: Server.JS)
